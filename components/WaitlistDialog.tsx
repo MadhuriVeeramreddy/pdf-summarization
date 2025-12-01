@@ -18,7 +18,7 @@ export function WaitlistDialog({ isOpen, onClose }: WaitlistDialogProps) {
     setMessage(null);
 
     try {
-      const response = await fetch('http://localhost:8000/waitlist', {
+      const response = await fetch('https://pdf-backend-08i4.onrender.com/waitlist', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
