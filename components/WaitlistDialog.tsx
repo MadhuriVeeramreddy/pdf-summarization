@@ -29,7 +29,7 @@ export function WaitlistDialog({ isOpen, onClose }: WaitlistDialogProps) {
       const data = await response.json();
 
       if (response.ok) {
-        setMessage({ type: 'success', text: data.message || 'Email added successfully!' });
+        setMessage({ type: 'success', text: data.message || 'Email added successfully' });
         setEmail('');
         // Auto close after 2 seconds on success
         setTimeout(() => {
