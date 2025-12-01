@@ -6,7 +6,7 @@ export function FAQ() {
 
   const faqs = [
     {
-      question: "Is SummarizeAI free?",
+      question: "Is DocuFlash free?",
       answer: "Yes, early access users get free credits."
     },
     {
@@ -45,7 +45,7 @@ export function FAQ() {
             className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto leading-relaxed font-normal"
             style={{ fontFamily: 'var(--font-switzer)' ,letterSpacing:'-.01em'}}
           >
-            Find quick answers to common questions about SummarizeAI
+            Find quick answers to common questions about DocuFlash
           </p>
         </div>
 

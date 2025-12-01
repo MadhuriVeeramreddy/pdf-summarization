@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "SummarizeAI",
+  title: "DocuFlash",
   description: "AI-powered PDF summarizer",
 };
 

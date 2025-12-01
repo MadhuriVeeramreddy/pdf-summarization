@@ -11,7 +11,7 @@ export function Benefits() {
               letterSpacing: '-0.02em'
             }}
           >
-            Why choose SummarizeAI?
+            Why choose DocuFlash?
           </h2>
           <p 
             className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto leading-relaxed font-normal"

@@ -115,7 +115,7 @@ export function WhoIsFor() {
             className="text-gray-700 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed font-normal"
             style={{ fontFamily: 'var(--font-switzer)' }}
           >
-            SummarizeAI gives you everything you need to understand complex documents effortlessly.
+            DocuFlash gives you everything you need to understand complex documents effortlessly.
           </p>
         </div> */}
       </div>

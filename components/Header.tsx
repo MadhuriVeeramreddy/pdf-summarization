@@ -15,7 +15,7 @@ export default function Header() {
           className="text-2xl font-semibold tracking-tight text-gray-900"
           style={{ fontFamily: 'var(--font-inter-display)' }}
         >
-          Summarize<span className="text-purple-600">AI</span>
+          DOCU<span className="text-purple-600">FLASH</span>
         </Link>
 
         {/* Nav */}

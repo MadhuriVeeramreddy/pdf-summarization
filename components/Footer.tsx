@@ -13,7 +13,7 @@ export function Footer() {
               className="text-2xl font-semibold tracking-tight text-gray-900"
               style={{ fontFamily: 'var(--font-inter-display)' }}
             >
-              Summarize<span className="text-purple-600">AI</span>
+              DOCU<span className="text-purple-600">FLASH</span>
             </Link>
           </div>
 
@@ -34,11 +34,11 @@ export function Footer() {
               Privacy
             </Link>
             <a 
-              href="mailto:support@summarizeai.com" 
+              href="mailto:support@docuflash.com" 
               className="text-gray-600 hover:text-black transition"
               style={{ fontFamily: 'var(--font-switzer)' }}
             >
-              Contact: support@summarizeai.com
+              Contact: support@docuflash.com
             </a>
           </div>
 
@@ -87,7 +87,7 @@ export function Footer() {
             className="text-sm text-gray-500"
             style={{ fontFamily: 'var(--font-switzer)' }}
           >
-            © {new Date().getFullYear()} SummarizeAI. All rights reserved.
+            © {new Date().getFullYear()} DocuFlash. All rights reserved.
           </p>
         </div>
       </div>
