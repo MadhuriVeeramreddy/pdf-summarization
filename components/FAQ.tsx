@@ -28,7 +28,7 @@ export function FAQ() {
   };
 
   return (
-    <section className="w-full py-20 bg-gray-50">
+    <section id="faq" className="w-full py-20 bg-gray-50 scroll-mt-32">
       <div className="max-w-4xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
@@ -55,6 +55,7 @@ export function FAQ() {
             <div 
               key={index}
               className="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden"
+              style={{ animation: `fadeInUp 0.6s ease-out ${index * 0.1}s both` }}
             >
               <button
                 onClick={() => toggleFAQ(index)}

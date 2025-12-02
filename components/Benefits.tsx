@@ -1,6 +1,6 @@
 export function Benefits() {
   return (
-    <section className="w-full pb-32 bg-gray-50">
+    <section className="w-full pb-32 bg-gray-50 scroll-mt-32" id="benefits">
       <div className="max-w-6xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -25,7 +25,10 @@ export function Benefits() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           
           {/* Benefit 1: Saves Time */}
-          <div className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100 group">
+          <div
+            className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100 group"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.1s both" }}
+          >
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0">
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -52,7 +55,10 @@ export function Benefits() {
           </div>
 
           {/* Benefit 2: Understands Complex PDFs */}
-          <div className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100 group">
+          <div
+            className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100 group"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.2s both" }}
+          >
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0">
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-50 to-purple-100 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -79,7 +85,10 @@ export function Benefits() {
           </div>
 
           {/* Benefit 3: Study Faster */}
-          <div className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100 group">
+          <div
+            className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100 group"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.3s both" }}
+          >
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0">
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-50 to-green-100 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -106,7 +115,10 @@ export function Benefits() {
           </div>
 
           {/* Benefit 4: Ready-to-use Flashcards */}
-          <div className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100 group">
+          <div
+            className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100 group"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.4s both" }}
+          >
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0">
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-50 to-orange-100 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -135,7 +147,10 @@ export function Benefits() {
         </div>
 
         {/* Stats Section */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div
+          className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
+          style={{ animation: "fadeInUp 0.8s ease-out 0.5s both" }}
+        >
           <div>
             <div 
               className="text-2xl font-bold text-black mb-1"

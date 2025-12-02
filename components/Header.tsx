@@ -35,7 +35,7 @@ export default function Header() {
         <button
           onClick={openDialog}
           className="px-6 py-2.5 bg-gradient-to-b from-[#5235EF] to-[#8771FF] text-white rounded-full font-medium hover:opacity-90 transition"
-          style={{ fontFamily: 'var(--font-switzer)' }}
+          style={{ fontFamily: 'var(--font-switzer)', cursor:'pointer' }}
         >
           Join Waitlist
         </button>

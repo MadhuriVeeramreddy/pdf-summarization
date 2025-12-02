@@ -1,6 +1,6 @@
 export function FeatureSection() {
   return (
-    <section className="relative w-full  bg-gray-50 pb-32">
+    <section id="features" className="relative w-full bg-gray-50 pb-32 scroll-mt-32">
       <div className="max-w-6xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-20">
@@ -25,7 +25,10 @@ export function FeatureSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           
           {/* Feature 1 - Instant Summaries */}
-          <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+          <div
+            className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.1s both" }}
+          >
             {/* Visual Element */}
             <div className="w-full h-48 bg-gradient-to-br from-pink-50 to-purple-50 rounded-xl mb-6 flex items-center justify-center relative overflow-hidden border-2 border-dashed border-pink-200">
               <div 
@@ -56,7 +59,10 @@ export function FeatureSection() {
           </div>
           
           {/* Feature 2 - Key Insights */}
-          <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+          <div
+            className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.2s both" }}
+          >
             {/* Visual Element */}
             <div className="w-full h-48 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl mb-6 flex items-center justify-center relative overflow-hidden">
               <div className="flex flex-row items-center gap-3">
@@ -111,7 +117,10 @@ export function FeatureSection() {
           </div>
 
           {/* Feature 3 - Flashcards */}
-          <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+          <div
+            className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.3s both" }}
+          >
             {/* Visual Element */}
             <div className="w-full h-48 bg-gradient-to-br from-purple-50 to-blue-50 rounded-xl mb-6 flex items-center justify-center relative">
               <div className="relative w-32 h-32">
@@ -189,7 +198,10 @@ export function FeatureSection() {
           </div>
 
           {/* Feature 4 - Ask Anything */}
-          <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+          <div
+            className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.4s both" }}
+          >
             {/* Visual Element */}
             <div className="w-full h-48 bg-gradient-to-br from-green-50 to-teal-50 rounded-xl mb-6 flex items-center justify-center relative overflow-hidden">
               <div className="relative w-full h-full flex items-center justify-center">

@@ -6,7 +6,7 @@ export function HowItWorks() {
   const { openDialog } = useWaitlist();
 
   return (
-    <section className="w-full py-32 bg-gray-50">
+    <section id="how-it-works" className="w-full py-32 bg-gray-50 scroll-mt-32">
       <div className="max-w-7xl mx-auto px-6">
         {/* Main Content: Steps + UI Mockup */}
         <h2 

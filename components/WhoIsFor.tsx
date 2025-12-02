@@ -24,7 +24,10 @@ export function WhoIsFor() {
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {/* Student Card */}
-          <div className="bg-gradient-to-tr from-white via-[#5235EF]/10 to-white  rounded-xl p-6 text-center border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100">
+          <div
+            className="bg-gradient-to-tr from-white via-[#5235EF]/10 to-white  rounded-xl p-6 text-center border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.1s both" }}
+          >
             <div className="w-16 h-16 rounded-full bg-blue-50 flex items-center justify-center mx-auto mb-4">
               <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -46,7 +49,10 @@ export function WhoIsFor() {
           </div>
 
           {/* Researcher Card */}
-          <div className="bg-gradient-to-tr from-white via-[#5235EF]/10 to-white rounded-xl p-6 text-center border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100">
+          <div
+            className="bg-gradient-to-tr from-white via-[#5235EF]/10 to-white rounded-xl p-6 text-center border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.2s both" }}
+          >
             <div className="w-16 h-16 rounded-full bg-green-50 flex items-center justify-center mx-auto mb-4">
               <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
@@ -67,7 +73,10 @@ export function WhoIsFor() {
           </div>
 
           {/* Professional Card */}
-          <div className="bg-gradient-to-tr from-white via-[#5235EF]/10 to-white rounded-xl p-6 text-center border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100">
+          <div
+            className="bg-gradient-to-tr from-white via-[#5235EF]/10 to-white rounded-xl p-6 text-center border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.3s both" }}
+          >
             <div className="w-16 h-16 rounded-full bg-purple-50 flex items-center justify-center mx-auto mb-4">
               <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V6a2 2 0 012 2v6a2 2 0 01-2 2H8a2 2 0 01-2-2V8a2 2 0 012-2V6" />
@@ -88,7 +97,10 @@ export function WhoIsFor() {
           </div>
 
           {/* Anyone Card */}
-          <div className="bg-gradient-to-tr from-white via-[#5235EF]/10 to-white rounded-xl p-6 text-center border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100">
+          <div
+            className="bg-gradient-to-tr from-white via-[#5235EF]/10 to-white rounded-xl p-6 text-center border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.4s both" }}
+          >
             <div className="w-16 h-16 rounded-full bg-orange-50 flex items-center justify-center mx-auto mb-4">
               <svg className="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />

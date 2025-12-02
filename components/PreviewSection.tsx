@@ -23,7 +23,10 @@ export function PreviewSection() {
         </div>
 
         {/* Screenshot Card */}
-        <div className="rounded-3xl border border-gray-200 shadow-[0_20px_60px_rgba(0,0,0,0.08)] overflow-hidden bg-white">
+        <div
+          className="rounded-3xl border border-gray-200 shadow-[0_20px_60px_rgba(0,0,0,0.08)] overflow-hidden bg-white"
+          style={{ animation: "fadeInUp 0.8s ease-out both" }}
+        >
           {/* Top Bar */}
           <div className="flex items-center gap-2 px-6 py-3 bg-gray-50 border-b border-gray-200">
             <div className="w-3 h-3 rounded-full bg-red-400"></div>

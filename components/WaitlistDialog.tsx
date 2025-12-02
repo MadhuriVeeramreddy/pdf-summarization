@@ -157,7 +157,7 @@ export function WaitlistDialog({ isOpen, onClose }: WaitlistDialogProps) {
                   Submitting...
                 </span>
               ) : (
-                <span className="relative z-10">Join Waitlist</span>
+                <span className="relative z-10" style={{cursor:'pointer'}}>Join Waitlist</span>
               )}
             </button>
           </form>

@@ -42,7 +42,10 @@ export function Problem() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
           {/* Card 1: Manage PDFs */}
-          <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 group">
+          <div
+            className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 group"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.1s both" }}
+          >
             <div className="flex justify-center mb-6">
               <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-10 h-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -66,7 +69,10 @@ export function Problem() {
           </div>
 
           {/* Card 2: Convert Experience */}
-          <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 group">
+          <div
+            className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 group"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.2s both" }}
+          >
             <div className="flex justify-center mb-6">
               <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-50 to-purple-100 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-10 h-10 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -90,7 +96,10 @@ export function Problem() {
           </div>
 
           {/* Card 3: Smart Flashcards */}
-          <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 group">
+          <div
+            className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 group"
+            style={{ animation: "fadeInUp 0.7s ease-out 0.3s both" }}
+          >
             <div className="flex justify-center mb-6">
               <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-green-50 to-green-100 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-10 h-10 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
